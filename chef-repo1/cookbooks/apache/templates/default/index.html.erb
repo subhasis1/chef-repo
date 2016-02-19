@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <h1>
+The IP Address of the Instance is <%= node['ipaddress'] %><br>
+The fully qualified domain name for the node is <%= node['fqdn'] %><br>
+The host name for the node <%= node['hostname'] %><br>
+The domain for the node <%= node['domain'] %><br>
+The time at which Ohai was last run <%= node['ohai_time'] %><br>
+The platform on which a node is running <%= node['platform'] %><br>
+
+</h1>
+  </body>
+</html>
